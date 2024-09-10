@@ -21,7 +21,7 @@ const ExplorerEstake = () => {
         "childrens_hospital"
     ]
     return (
-        <div className="w-[100%] grid grid-cols-3 grid-flow-row gap-3 justify-between ">
+        <div className="w-[100%] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 grid-flow-row gap-10 justify-between">
             {
                 estakes.map((itm, idx) => (
                     <Card
@@ -36,7 +36,7 @@ const ExplorerEstake = () => {
 
 const PopularEstake = () => {
     return (
-        <div className="w-[100%] p-20">
+        <div className="w-[100%] p-32">
             <PopularTitle />
             <ExplorerEstake />
         </div>
