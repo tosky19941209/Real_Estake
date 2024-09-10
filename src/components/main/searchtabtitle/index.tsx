@@ -8,7 +8,7 @@ const SearchPart = () => {
             <input 
                 type="text"
                 className="w-[70%] md:w-[750px] h-[60px] text-[black] p-2 rounded-xl focus:outline-none"
-                placeholder="Search Real Estake in Florida"
+                placeholder="Search Real Estate in Florida"
             />
         </div>
     )
