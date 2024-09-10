@@ -1,14 +1,37 @@
-import Image from "next/image";
+import Logo from "@/components/header/logo";
+import Title from "@/components/header/title";
+import Navbar from "@/components/header/navbar/indext";
+const Header = () => {
+  return (
+    <div className="w-[100%] h-[100px] flex justify-between items-center p-10">
+      <Logo />
+      <Title />
+      <Navbar />
+    </div>
+  )
+}
+
+const Main = () => {
+  return (
+    <div className="w-[100%] h-[300px] md:h-[500px] bg-[url('/assets/background.jpg')] bg-cover bg-no-repeat bg-center">
+    </div>
+  )
+}
+
+const Footer = () => {
+  return (
+    <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+    </footer>
+
+  )
+}
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-
-      </footer>
+    <div className="bg-white min-h-screen ">
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
