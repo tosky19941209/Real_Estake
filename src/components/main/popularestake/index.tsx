@@ -5,7 +5,7 @@ const PopularTitle = () => {
     return (
         <div className="w-[100%] flex justify-center items-center">
             <p className="text-[black] text-[25px] md:text-[40px] font-bold">
-                Recent Popular Real Estake
+                Recent Popular Real Estate
             </p>
         </div>
     )

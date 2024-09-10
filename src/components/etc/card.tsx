@@ -18,7 +18,7 @@ const Card = ({ src }: CardType) => {
                 <p className=" text-[25px]">
                     {src}
                 </p>
-                <p>
+                <p className="w-[80%]">
                     2435 S Sepulveda Blvd,
                     Los Angeles, CA 90064
                 </p>
