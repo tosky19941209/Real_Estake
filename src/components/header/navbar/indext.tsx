@@ -2,7 +2,7 @@
 import Link from "next/link"
 const Navbar = () => {
     return (
-        <div className="flex gap-2 text-[black]">
+        <div className="flex gap-4 text-[black]">
             <Link href={""}>
                 <p>Search</p>
             </Link>
